@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="republika:war exploded">
+    <output-path>$PROJECT_DIR$/target/republika-1.0.0-alpha-1-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="republika/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="republika" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.5.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:0.9.24" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:0.9.24" />
+          <element id="library" level="project" name="Maven: com.googlecode.objectify:objectify:4.0b1" />
+          <element id="library" level="project" name="Maven: org.joda:joda-money:0.6" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.7.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.0.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.0.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.0.6" />
+          <element id="library" level="project" name="Maven: com.google.inject:guice:3.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-servlet:2.0" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="republika/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
